@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Sat 21 Jun 2014 14:24:20 BST
+
+BeginCmp
+TimeStamp = /53A587A0;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = 10to7_sm_standard:SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A587E1;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = 10to7_sm_standard:SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A583F1/53874BE5;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = 10to7_sm_standard:SM0201;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A583F1/53874BD1;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = 10to7_sm_standard:SM0201;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A583F1/53874FD4;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = 10to7_sm_standard:SM0201;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A583F1/53874F06;
+Reference = C6;
+ValeurCmp = 4u7;
+IdModule  = 10to7_sm_standard:SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A583F1/5387C86C;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = 10to7_connectors:Jumper-smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A58876;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A583F1/53874F1A;
+Reference = R1;
+ValeurCmp = 15;
+IdModule  = 10to7_sm_standard:SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A585DE;
+Reference = U1;
+ValeurCmp = MCP1703T;
+IdModule  = 10to7_sm_standard:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A583F1/53874627;
+Reference = U2;
+ValeurCmp = TXB0108;
+IdModule  = 10to7_sm_standard:TSSOP-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A583F1/53874ACB;
+Reference = U3;
+ValeurCmp = AS5055A;
+IdModule  = 10to7_sm_standard:QFN_16+1;
+EndCmp
+
+EndListe

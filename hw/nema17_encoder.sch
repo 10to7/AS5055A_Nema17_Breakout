@@ -1,0 +1,300 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:10to7_connectors
+LIBS:10to7_sensors
+LIBS:10to7_power
+LIBS:10to7_ic
+LIBS:nema17_encoder-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 9100 1000 1700 850 
+U 53A583F1
+F0 "AS5055A" 50
+F1 "AS5055A.sch" 50
+F2 "MOSI" I L 9100 1150 60 
+F3 "MISO" I L 9100 1250 60 
+F4 "SCK" I L 9100 1350 60 
+F5 "SS" I L 9100 1450 60 
+F6 "Enable_Interrupt" I L 9100 1650 60 
+F7 "Interrupt" I L 9100 1750 60 
+$EndSheet
+$Comp
+L MCP1703T U1
+U 1 1 53A585DE
+P 4300 2500
+F 0 "U1" H 4550 2150 60  0000 C CNN
+F 1 "MCP1703T" H 4500 2750 60  0000 C CNN
+F 2 "" H 4300 2500 60  0000 C CNN
+F 3 "" H 4300 2500 60  0000 C CNN
+	1    4300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 53A58628
+P 4300 3200
+F 0 "#PWR01" H 4300 3200 30  0001 C CNN
+F 1 "GND" H 4300 3130 30  0001 C CNN
+F 2 "" H 4300 3200 60  0000 C CNN
+F 3 "" H 4300 3200 60  0000 C CNN
+	1    4300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 53A58660
+P 5100 2900
+F 0 "#PWR02" H 5100 2900 30  0001 C CNN
+F 1 "GND" H 5100 2830 30  0001 C CNN
+F 2 "" H 5100 2900 60  0000 C CNN
+F 3 "" H 5100 2900 60  0000 C CNN
+	1    5100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 53A58674
+P 3450 2900
+F 0 "#PWR03" H 3450 2900 30  0001 C CNN
+F 1 "GND" H 3450 2830 30  0001 C CNN
+F 2 "" H 3450 2900 60  0000 C CNN
+F 3 "" H 3450 2900 60  0000 C CNN
+	1    3450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR04
+U 1 1 53A58688
+P 5350 2400
+F 0 "#PWR04" H 5350 2360 30  0001 C CNN
+F 1 "+3.3V" H 5350 2510 30  0000 C CNN
+F 2 "" H 5350 2400 60  0000 C CNN
+F 3 "" H 5350 2400 60  0000 C CNN
+	1    5350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR05
+U 1 1 53A5869C
+P 3100 2350
+F 0 "#PWR05" H 3100 2440 20  0001 C CNN
+F 1 "+5V" H 3100 2440 30  0000 C CNN
+F 2 "" H 3100 2350 60  0000 C CNN
+F 3 "" H 3100 2350 60  0000 C CNN
+	1    3100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 53A587A0
+P 3450 2650
+F 0 "C1" H 3450 2750 40  0000 L CNN
+F 1 "1uF" H 3456 2565 40  0000 L CNN
+F 2 "" H 3488 2500 30  0000 C CNN
+F 3 "" H 3450 2650 60  0000 C CNN
+	1    3450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 53A587E1
+P 5100 2650
+F 0 "C2" H 5100 2750 40  0000 L CNN
+F 1 "1uF" H 5106 2565 40  0000 L CNN
+F 2 "" H 5138 2500 30  0000 C CNN
+F 3 "" H 5100 2650 60  0000 C CNN
+	1    5100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8 P1
+U 1 1 53A58876
+P 6850 1800
+F 0 "P1" V 6800 1800 60  0000 C CNN
+F 1 "CONN_8" V 6900 1800 60  0000 C CNN
+F 2 "" H 6850 1800 60  0000 C CNN
+F 3 "" H 6850 1800 60  0000 C CNN
+	1    6850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 53A5888A
+P 6400 2250
+F 0 "#PWR06" H 6400 2250 30  0001 C CNN
+F 1 "GND" H 6400 2180 30  0001 C CNN
+F 2 "" H 6400 2250 60  0000 C CNN
+F 3 "" H 6400 2250 60  0000 C CNN
+	1    6400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 53A5889E
+P 6400 1400
+F 0 "#PWR07" H 6400 1490 20  0001 C CNN
+F 1 "+5V" H 6400 1490 30  0000 C CNN
+F 2 "" H 6400 1400 60  0000 C CNN
+F 3 "" H 6400 1400 60  0000 C CNN
+	1    6400 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2350 3100 2450
+Wire Wire Line
+	3100 2450 3750 2450
+Wire Wire Line
+	4850 2450 5350 2450
+Wire Wire Line
+	5350 2450 5350 2400
+Connection ~ 3450 2450
+Wire Wire Line
+	3450 2900 3450 2850
+Connection ~ 5100 2450
+Wire Wire Line
+	5100 2900 5100 2850
+Wire Wire Line
+	4300 3200 4300 3000
+Wire Wire Line
+	6500 1450 6400 1450
+Wire Wire Line
+	6400 1450 6400 1400
+Wire Wire Line
+	6500 2150 6400 2150
+Wire Wire Line
+	6400 2150 6400 2250
+Wire Wire Line
+	9100 1150 8650 1150
+Wire Wire Line
+	9100 1250 8650 1250
+Wire Wire Line
+	9100 1350 8650 1350
+Wire Wire Line
+	9100 1450 8650 1450
+Wire Wire Line
+	9100 1650 8650 1650
+Wire Wire Line
+	9100 1750 8650 1750
+Text Label 8650 1250 0    60   ~ 0
+mi
+Text Label 8650 1350 0    60   ~ 0
+sc
+Text Label 8650 1450 0    60   ~ 0
+ss
+Text Label 8650 1650 0    60   ~ 0
+en
+Text Label 8650 1750 0    60   ~ 0
+int
+Wire Wire Line
+	6500 1650 6050 1650
+Wire Wire Line
+	6500 1750 6050 1750
+Wire Wire Line
+	6500 1850 6050 1850
+Text Label 6050 1650 0    60   ~ 0
+mi
+Text Label 6050 1750 0    60   ~ 0
+sc
+Text Label 6050 1850 0    60   ~ 0
+ss
+Wire Wire Line
+	6500 1950 6050 1950
+Wire Wire Line
+	6500 2050 6050 2050
+Text Label 6050 1950 0    60   ~ 0
+en
+Text Label 6050 2050 0    60   ~ 0
+int
+Wire Wire Line
+	6500 1550 6300 1550
+Text Label 6300 1550 0    60   ~ 0
+mo
+Text Label 8650 1150 0    60   ~ 0
+mo
+$Comp
+L GND #PWR08
+U 1 1 53A5911E
+P 4550 1250
+F 0 "#PWR08" H 4550 1250 30  0001 C CNN
+F 1 "GND" H 4550 1180 30  0001 C CNN
+F 2 "" H 4550 1250 60  0000 C CNN
+F 3 "" H 4550 1250 60  0000 C CNN
+	1    4550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR09
+U 1 1 53A59132
+P 4900 1050
+F 0 "#PWR09" H 4900 1140 20  0001 C CNN
+F 1 "+5V" H 4900 1140 30  0000 C CNN
+F 2 "" H 4900 1050 60  0000 C CNN
+F 3 "" H 4900 1050 60  0000 C CNN
+	1    4900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG010
+U 1 1 53A59146
+P 4550 1250
+F 0 "#FLG010" H 4550 1345 30  0001 C CNN
+F 1 "PWR_FLAG" H 4550 1430 30  0000 C CNN
+F 2 "" H 4550 1250 60  0000 C CNN
+F 3 "" H 4550 1250 60  0000 C CNN
+	1    4550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG011
+U 1 1 53A5915A
+P 4900 1050
+F 0 "#FLG011" H 4900 1145 30  0001 C CNN
+F 1 "PWR_FLAG" H 4900 1230 30  0000 C CNN
+F 2 "" H 4900 1050 60  0000 C CNN
+F 3 "" H 4900 1050 60  0000 C CNN
+	1    4900 1050
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
